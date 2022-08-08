@@ -71,10 +71,10 @@ open class LNZSnapToCenterCollectionViewLayout: UICollectionViewLayout, FocusedC
     //MARK: - Utility properties
     
     ///This property represents the actual section inset left calculated in order to have the first element of the collection centered.
-    internal var sectionInsetLeft: CGFloat = 8
+    var sectionInsetLeft: CGFloat = 8
     
     ///This property represents the actual section inset right calculated in order to have the last element of the collection centered.
-    internal var sectionInsetRight: CGFloat = 8
+    var sectionInsetRight: CGFloat = 8
 
     
     ///As in focus element is to be intended the element currently in the center, 
